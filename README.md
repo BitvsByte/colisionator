@@ -3,7 +3,7 @@
 <p align="left">
    <img width="100%" height="333" src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2016/08/186628-universo.jpg">
    </p>
-   <video src="https://github.com/BitvsByte/colisionator/tree/main/img/" width="640" height="480"></video>
+   <video src="" width="640" height="480"></video>
 
 ## Description
 
