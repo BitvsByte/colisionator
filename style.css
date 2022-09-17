@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#imagen {
+
+    position: relative;
+    display: block;
+    width: 200px;
+}
+
+#lienzo {
+    width: 100%;
+    height: 750px;
+    border: 1px solid black;
+    box-shadow: 0 0 20px gray inset;
+    border-radius: 20px;
+    overflow: hidden;
+    background-image: url('https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2016/08/186628-universo.jpg');
+    background-position: center;
+
+}
+#rotar{
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 20%, rgba(86,175,134,1) 86%);
+    color:aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#parar{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 12%, rgba(253,29,29,1) 50%, rgba(252,176,69,0.835171568627451) 94%);
+    color:aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+body {
+    background-color: black;
+}
+h2 {
+    color: wheat;
+    font-size: 50px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn_container {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+
+}
+
+/*Animaciones CSS*/
+.gira {
+    animation: rotar 700ms infinite linear;
+    animation: rotar 700ms infinite linear;
+}
+@keyframes rotar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Animaciones CSS*/
+/* .para{
+            animation:rotar none;
+            animation:rotar none;
+        }
+        @keyframes rotar{
+            from{transform:rotate(0deg);}
+            to{transform:rotate(0deg);}
+        }
+        @keyframes rotar{
+            from{transform:rotate(0deg);}
+            to{transform:rotate(0deg);}
+        } */
