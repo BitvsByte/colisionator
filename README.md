@@ -31,7 +31,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## View a live version of this example
 
-* [Colisions](https://bitvsbyte.github.io/snake_javaScript/)
+* [Colisions](https://bitvsbyte.github.io/colisionator/)
 
 ## hiring 👍
 
